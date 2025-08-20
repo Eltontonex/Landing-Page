@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    padding: 10px 20px;
+    background: skyblue;
+}
+.header a {
+    margin-left: 30px;
+    text-decoration: none;
+}
+.logo {
+    font-size: 24px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background: skyblue;
+    padding: 100px;
+}
+.box {
+    width: 600px;
+}
+.intro {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.para {
+    font-size: 24px;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+}
+.infos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cat {
+    width: 300px;
+    height: 300px;
+    border: solid blue 4px;
+    border-radius: 10px;
+}
+img {
+    border-radius: 10px;
+}
+.infos {
+    display: flex;
+    justify-content: center;
+    gap: 80;
+    height: 450px;
+    font-size: 30px;
+}
+.text {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0px;
+}
+.pack {
+    text-align: center;
+    background: lightgrey;
+    padding: 100px;
+}
+.case {
+    text-align: center;
+    width: 90%;
+    font-size: 50px;
+}
+.wrap {
+    font-size: 30px;
+    font-weight: 30px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.sign {
+  display: flex;
+  justify-content: center;
+  padding: 200px;  
+  border-radius: 10px;
+}
+.crate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: paleturquoise;
+    width: 1200px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.btm {
+    width: 80px;
+    height: 40px;
+}
+.footer {
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 24px;
+}

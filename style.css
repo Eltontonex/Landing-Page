@@ -3,12 +3,15 @@
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
+    font-weight: bold;
     padding: 10px 20px;
-    background: skyblue;
+    background: #D0BA98;
+    color: #23140C;
 }
 .header a {
     margin-left: 30px;
     text-decoration: none;
+     color: #23140C;
 }
 .logo {
     font-size: 24px;
@@ -16,34 +19,59 @@
 .container {
     display: flex;
     justify-content: center;
-    background: skyblue;
-    padding: 100px;
+    background: #f5f5DC;
+    color: #E4281F;
+    padding: 200px;
+    background-image: url(./pics/spacejoy-RqO6kwm4tZY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .box {
     width: 600px;
+    flex: 1 1 300px;
+    max-width: 600px;
 }
 .intro {
     font-size: 60px;
     font-weight: bolder;
+     color: #23140C;
 }
 .para {
     font-size: 24px;
+    color: #23140C;
+    font-size: 30px;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px;
+    background: #23140C;
+    color: #D0BA98;
+    font-size: 24px;
+    font-weight: bold;
 }
 .title {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     padding: 40px;
+    background: #D0BA98;
+    text-decoration: underline;
 }
 .infos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+    background: #D0BA98;
 }
 .cat {
     width: 300px;
     height: 300px;
-    border: solid blue 4px;
+    max-width: 100%;
+    flex: 1 1 250px;
+    max-width: 300px;
+    border: solid #381E05 4px;
     border-radius: 10px;
 }
 img {
@@ -58,12 +86,14 @@ img {
 }
 .text {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
     margin-top: 0px;
 }
 .pack {
     text-align: center;
-    background: lightgrey;
+    background: #23140C;
+    color: #D0BA98;
     padding: 100px;
 }
 .case {
@@ -72,7 +102,7 @@ img {
     font-size: 50px;
 }
 .wrap {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 30px;
     margin-left: 30%;
     margin-top: 10px;
@@ -82,25 +112,41 @@ img {
   justify-content: center;
   padding: 200px;  
   border-radius: 10px;
+  background: #FFCB82;
 }
 .crate {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: paleturquoise;
-    width: 1200px;
+    background: #381E05;
+    color: #FFCB82;
+    width: 100%;
+    max-width: 1200px;
     height: 200px;
+    min-height: 150px;
     border-radius: 10px;
-    font-size: 24px;
+    font-size: 30px;
 }
 .btm {
-    width: 80px;
-    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #D0BA98;
+    color: #23140C;
+    font-size: 24px;
+    font-weight: bold;
 }
 .footer {
-    background: yellowgreen;
+    background: #FFCB82;
     display: flex;
     justify-content: center;
     padding: 40px;
     font-size: 24px;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .intro { font-size: 2rem; }
+    .para { font-size: 1rem; }
+    .crate { flex-direction: column; text-align: center; }
+    .title { font-size: 1.5rem; }
 }

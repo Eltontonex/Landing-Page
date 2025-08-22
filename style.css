@@ -28,9 +28,9 @@
     background-position: center;
 }
 .box {
-    width: 600px;
+    width: 60%;
     flex: 1 1 300px;
-    max-width: 600px;
+    max-width: 60%;
 }
 .intro {
     font-size: 60px;
@@ -61,16 +61,12 @@
 .infos {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
     background: #D0BA98;
 }
 .cat {
     width: 300px;
     height: 300px;
-    max-width: 100%;
-    flex: 1 1 250px;
-    max-width: 300px;
     border: solid #381E05 4px;
     border-radius: 10px;
 }

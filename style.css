@@ -36,11 +36,13 @@
     font-size: 60px;
     font-weight: bolder;
      color: #23140C;
+     width: 100%;
 }
 .para {
     font-size: 24px;
     color: #23140C;
     font-size: 30px;
+    width: 100%;
 }
 .btn{
     border-radius: 10px;
@@ -63,6 +65,7 @@
     justify-content: center;
     gap: 20px;
     background: #D0BA98;
+    width: 100%;
 }
 .cat {
     width: 300px;
